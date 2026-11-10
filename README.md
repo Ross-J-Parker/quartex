@@ -27,9 +27,10 @@ No LaTeX installation is needed. The PDF is made with Quarto's Typst engine.
 
 ## Quick start
 
-1. Open Terminal (Mac) or PowerShell (Windows) and go to the QuarTeX folder.
-- **Mac:** open Terminal, type `cd ` (with a space after `cd`), drag the folder into the window, and press Return.
-- **Windows:** open the folder in File Explorer, click the address bar, type `powershell`, and press Return.
+1. Download the code from this repository and unzip it.
+2. Open Terminal (Mac) or PowerShell (Windows) and navigate to the QuarTeX folder e.g. /Users/username/Downloads/QuarTeX.
+- **Mac:** using Terminal, type `cd ` (with a space after `cd`), either drag the folder into the window or paste in the location path wrapped in quotes, and press Return.
+- **Windows:** using PowerShell, type `cd `, and then paste the file path of the downloaded folder and press Return.
 2. Check your setup (once). This lists anything missing and the command to install it:
 - python3 check_setup.py      # Mac
 - py check_setup.py           # Windows
@@ -48,7 +49,7 @@ No LaTeX installation is needed. The PDF is made with Quarto's Typst engine.
 9. To preview the notes, to into the **_book** folder and open the **index.html** file in your browser.
 10. To edit the notes, open the entire folder in [Positron](https://positron.posit.co/ "a free IDE purpose-built for data science"), [R Studio](https://posit.co/products/open-source/rstudio "The trusted IDE for R data scientists"), or another editor of choice.
 
-For guidance on editing the files, visit the [Quarto guidance] (https://quarto.org/docs/guide/ "Comprehensive guide to using Quarto. If you are just starting out, you may want to explore the tutorials to learn the basics.").
+For guidance on editing the files, visit the [Quarto guidance](https://quarto.org/docs/guide/ "Comprehensive guide to using Quarto. If you are just starting out, you may want to explore the tutorials to learn the basics.").
 
 ## Command-line use
 
