@@ -27,38 +27,28 @@ No LaTeX installation is needed. The PDF is made with Quarto's Typst engine.
 
 ## Quick start
 
-Open Terminal (Mac) or PowerShell (Windows) and go to the QuarTeX folder.
-
-**Mac:** open Terminal, type `cd ` (with a space after `cd`), drag the folder into the window, and press Return.
-
-**Windows:** open the folder in File Explorer, click the address bar, type `powershell`, and press Return.
-
-Check your setup (once). This lists anything missing and the command to install it:
-
-    python3 check_setup.py      # Mac
-    py check_setup.py           # Windows
-
-Start the converter:
-
-    python3 webapp.py           # Mac
-    py webapp.py               # Windows
-
-Your browser opens the converter page. Then:
-
-1. Choose the .zip of your LaTeX source (or a single .tex file). The title, author and
+1. Open Terminal (Mac) or PowerShell (Windows) and go to the QuarTeX folder.
+- **Mac:** open Terminal, type `cd ` (with a space after `cd`), drag the folder into the window, and press Return.
+- **Windows:** open the folder in File Explorer, click the address bar, type `powershell`, and press Return.
+2. Check your setup (once). This lists anything missing and the command to install it:
+- python3 check_setup.py      # Mac
+- py check_setup.py           # Windows
+3. Start the converter:
+- python3 webapp.py           # Mac
+- py webapp.py               # Windows
+- Your browser opens the converter page. Then:
+4. Choose the .zip of your LaTeX source (or a single .tex file). The title, author and
    affiliation are read from the source and filled in. You can change them.
-2. Choose the output: Automatic (a book if the source has more than one chapter), Single page
+5. Choose the output: Automatic (a book if the source has more than one chapter), Single page
    or Book.
-3. Choose a theme. Quarto's theme comparison page is linked from the form.
-4. Click **Convert**. A long package can take several minutes.
-5. Download the converted notes. The file is named after the title, with `_converted` added,
+6. Choose a theme. Quarto's theme comparison page is linked from the form.
+7. Click **Convert**. A long package can take several minutes.
+8. Download the converted notes. The file is named after the title, with `_converted` added,
    for example `Introduction to Circuits_converted.zip`.
+9. To preview the notes, to into the **_book** folder and open the **index.html** file in your browser.
+10. To edit the notes, open the entire folder in [Positron](https://positron.posit.co/ "a free IDE purpose-built for data science"), [R Studio](https://posit.co/products/open-source/rstudio "The trusted IDE for R data scientists"), or another editor of choice.
 
-Leave the Terminal or PowerShell window open while you use the converter. To stop it, press
-Control+C in that window or close it.
-
-Converted files and working copies are kept in a folder called `QuarTeX-jobs` in your home
-folder. Delete it when you no longer need the results.
+For guidance on editing the files, visit the [Quarto guidance] (https://quarto.org/docs/guide/ "Comprehensive guide to using Quarto. If you are just starting out, you may want to explore the tutorials to learn the basics.").
 
 ## Command-line use
 
