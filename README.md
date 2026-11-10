@@ -1,7 +1,6 @@
 # QuarTeX
 
-QuarTeX converts a LaTeX lecture package into Quarto notes. The output is a single web page or a
-multi-page book with a sidebar, and each one comes with a PDF download.
+QuarTeX converts a LaTeX lecture package into Quarto notes. The output is a single web page or a multi-page book with a sidebar, and each one comes with a PDF download.
 
 It runs entirely on your own computer. Nothing is uploaded to another server, so your source
 material stays local.
@@ -9,9 +8,9 @@ material stays local.
 ## Who it is for
 
 Academic staff who have lecture notes written in LaTeX and want to publish them as accessible
-web notes, or who want a PDF version alongside them. You do not need to use the command line:
-the converter has a web page that opens in your browser. The command-line tool is also available
-for people who prefer it.
+web notes. The tool can be used by anyone, whether it's academics themselves, or people who support them such as learning technologists and developers.
+
+While the app needs to be launched from the command line, it has a web page that opens in your browser.
 
 ## Requirements
 
@@ -111,6 +110,11 @@ For guidance on editing the files, visit the [Quarto guidance](https://quarto.or
 
 QuarTeX source code is released under the **MIT License** (see `LICENSE`), and documentation/educational materials are shared under **Creative Commons Attribution (CC BY)**. You are free to use, adapt, and share it, including for commercial purposes, as long as the licence notices are kept.
 
-**How it was made:** the ideas, requirements, design decisions and testing are the author's own.
-Much of the code was written with the help of an AI assistant (Claude, by Anthropic), working
+##How it was made
+
+The ideas, requirements, design decisions and testing are the author's own based on years of experience of authoring LaTeX code and converting it to accessible HTML.
+
+The code was written with the help of an AI assistant (Claude, by Anthropic), working
 under the author's direction. The author reviewed and tested the result.
+
+LaTeX notes used in early testing was conducted with permission of the authors. Note, the tool runs locally meaning that the source LaTeX notes do not need to be uploaded to AI models for the conversion.
