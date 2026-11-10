@@ -5,6 +5,8 @@ QuarTeX converts a LaTeX lecture package into Quarto notes. The output is a sing
 It runs entirely on your own computer. Nothing is uploaded to another server, so your source
 material stays local.
 
+By converting the LaTeX notes to Quarto, you can edit and render the notes in tools like Positron and R Studio, giving you Overleaf like functionality for updating and maintaining your notes in future.
+
 ## Who it is for
 
 Academic staff who have lecture notes written in LaTeX and want to publish them as accessible
