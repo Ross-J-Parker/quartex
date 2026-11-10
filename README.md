@@ -107,12 +107,9 @@ For guidance on editing the files, visit the [Quarto guidance](https://quarto.or
 
 ## Licence and credits
 
-Copyright (c) 2026 Durham University. Author: Ross Parker, Centre for Academic Development
-(DCAD), Durham University.
+© Ross Parker, Durham University, 2026. 
 
-QuarTeX is released under the MIT licence (see `LICENSE`). It is shared as an Open Educational
-Resource, so you are free to use, adapt and share it, including for commercial purposes, as long
-as the licence notice is kept.
+QuarTeX source code is released under the **MIT License** (see `LICENSE`), and documentation/educational materials are shared under **Creative Commons Attribution (CC BY)**. You are free to use, adapt, and share it, including for commercial purposes, as long as the licence notices are kept.
 
 **How it was made:** the ideas, requirements, design decisions and testing are the author's own.
 Much of the code was written with the help of an AI assistant (Claude, by Anthropic), working
