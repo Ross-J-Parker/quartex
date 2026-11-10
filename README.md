@@ -28,9 +28,8 @@ No LaTeX installation is needed. The PDF is made with Quarto's Typst engine.
 ## Quick start
 
 1. Download the code from this repository and unzip it.
-2. Open Terminal (Mac) or PowerShell (Windows) and navigate to the QuarTeX folder e.g. /Users/username/Downloads/QuarTeX.
-- **Mac:** using Terminal, type `cd ` (with a space after `cd`), either drag the folder into the window or paste in the location path wrapped in quotes, and press Return.
-- **Windows:** using PowerShell, type `cd `, and then paste the file path of the downloaded folder and press Return.
+2. Open Terminal (Mac) or PowerShell (Windows) and navigate to the QuarTeX folder.
+- using Terminal or PowerShell, type `cd ` (with a space after `cd`) and paste in the location path wrapped in quotes, and press Return. Your command should look something like: cd "/Users/Username/Downloads/QuarTeX"
 2. Check your setup (once). This lists anything missing and the command to install it:
 - python3 check_setup.py      # Mac
 - py check_setup.py           # Windows
